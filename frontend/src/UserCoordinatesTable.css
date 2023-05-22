@@ -1,0 +1,40 @@
+.coordinates-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .coordinates-table th {
+    background-color: #f0f0f0;
+    font-weight: bold;
+    padding: 8px;
+  }
+  
+  .coordinates-table td {
+    padding: 8px;
+  }
+  
+  .coordinates-table td img {
+    width: 20px;
+  }
+  
+  .pagination {
+    margin-top: 20px;
+  }
+  
+  .pagination button {
+    background-color: #ccc;
+    border: 1px solid #ccc;
+    color: #333;
+    padding: 8px 16px;
+    cursor: pointer;
+  }
+  
+  .pagination button:hover {
+    background-color: #bbb;
+  }
+  
+  .pagination button.active {
+    background-color: #000;
+    color: #fff;
+  }
+  

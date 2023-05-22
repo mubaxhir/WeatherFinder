@@ -1,0 +1,52 @@
+.searchbox {
+    padding: 10px;
+    padding: 10px;
+  }
+  
+  .searchbox select {
+    width: 100%;
+  }
+  
+  .searchbox ul {
+    position: absolute;
+    z-index: 1000;
+    background-color: white;
+    max-width: 200px;
+    min-width: 100px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    border: 1px solid black;
+    overflow: hidden;
+    display: block;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .searchbox ul li {
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .searchbox ul li:hover {
+    background-color: lightgray;
+  }
+  
+  .searchbox input {
+    border: none;
+    outline: none;
+    background: white;
+    width: 100%;
+  }
+  
+  .searchbox input:focus + ul {
+    display: block;
+  }
+  
+  .searchbox ul:focus + ul {
+    display: block;
+  }
+  .searchbox li:focus + ul {
+    display: block;
+  }
+  
